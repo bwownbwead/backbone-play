@@ -1,0 +1,24 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 20px;
+}
+
+h1 {
+	padding-bottom: 20px;
+}
+
+footer {
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#new-todo {
+	margin-bottom: 10px;
+	padding: 10px;
+}
