@@ -24,6 +24,12 @@ var TodoList = Backbone.Collection.extend({
 		}
 
 		return this.last().get('order') + 1;
+	},
+
+	comparator: function(todo) {
+		return todo.get('order');
 	}
 
 });
+
+app.Todos = new TodoList();
